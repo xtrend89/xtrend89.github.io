@@ -20,7 +20,6 @@
 </head>
 <body>
 <section id="dropdown-menu-2btn-1">
-
     <nav class="navbar navbar-dropdown navbar-fixed-top">
 
         <div class="container">
@@ -58,7 +57,7 @@
                 <div class="mbr-section__container mbr-section__container--center mbr-section__container--middle">
                   <div id='product-component-dadaa7be0dd'></div>
                   
-                  
+<!-- Produto 1 -->                
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -228,66 +227,370 @@
   }
 })();
 /*]]>*/
-</script> 
-                  
-                  
-                  
-                  
-                  
-                  
-                  
+                  </script>               
+
                 </div>
-                <div class="mbr-section__container mbr-section__container--middle">
-                    <div class="mbr-header mbr-header--reduce mbr-header--center mbr-header--wysiwyg">
-                        <h3 class="mbr-header__text">BOOTSTRAP 3</h3>
-                    </div>
-                </div>
-                <div class="mbr-section__container mbr-section__container--middle">
-                    <div class="mbr-article mbr-article--wysiwyg">
-                        <p>Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.</p>
-                    </div>
-                </div>
-                <div class="mbr-section__container mbr-section__container--last" style="padding-bottom: 93px;">
-                    <div class="mbr-buttons mbr-buttons--center"><a href="https://mobirise.com" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default">LEARN MORE</a></div>
-                </div>
-            </div>
+                
+                
             <div class="mbr-section__col col-xs-12 col-sm-4">
                 <div class="mbr-section__container mbr-section__container--center mbr-section__container--middle">
-                    <figure class="mbr-figure"><img src="assets/images/responsive.png" class="mbr-figure__img"></figure>
-                </div>
-                <div class="mbr-section__container mbr-section__container--middle">
-                    <div class="mbr-header mbr-header--reduce mbr-header--center mbr-header--wysiwyg">
-                        <h3 class="mbr-header__text">RESPONSIVE</h3>
-                    </div>
-                </div>
-                <div class="mbr-section__container mbr-section__container--middle">
-                    <div class="mbr-article mbr-article--wysiwyg">
-                        <p>One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.</p>
-                    </div>
-                </div>
-                <div class="mbr-section__container mbr-section__container--last" style="padding-bottom: 93px;">
-                    <div class="mbr-buttons mbr-buttons--center"><a href="https://mobirise.com" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default">LEARN MORE</a></div>
-                </div>
-            </div>
+                  
+                  
+<!-- Produto 2 -->                
+<div id='product-component-8fd61de570e'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'miitrend.myshopify.com',
+      apiKey: '4ae5e6a6f97d139a3a22bf9d3e552815',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [9335592974],
+        node: document.getElementById('product-component-8fd61de570e'),
+        moneyFormat: '%E2%82%AC%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "variantTitle": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "ADICIONAR AO CARRINHO"
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#e3ab42",
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px",
+        "padding-left": "10px",
+        "padding-right": "10px",
+        ":hover": {
+          "background-color": "#cc9a3b"
+        },
+        ":focus": {
+          "background-color": "#cc9a3b"
+        }
+      },
+      "quantityInput": {
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px"
+      },
+      "compareAt": {
+        "font-size": "12px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#e3ab42",
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px",
+        ":hover": {
+          "background-color": "#cc9a3b"
+        },
+        ":focus": {
+          "background-color": "#cc9a3b"
+        }
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#e3ab42",
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px",
+        "padding-left": "10px",
+        "padding-right": "10px",
+        ":hover": {
+          "background-color": "#cc9a3b"
+        },
+        ":focus": {
+          "background-color": "#cc9a3b"
+        }
+      },
+      "quantityInput": {
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px"
+      }
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#e3ab42",
+        ":hover": {
+          "background-color": "#cc9a3b"
+        },
+        ":focus": {
+          "background-color": "#cc9a3b"
+        }
+      },
+      "count": {
+        "font-size": "13px"
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+              </div>
+                
             
             <div class="mbr-section__col col-xs-12 col-sm-4">
                 <div class="mbr-section__container mbr-section__container--center mbr-section__container--middle">
-                    <figure class="mbr-figure"><img src="assets/images/google-fonts.png" class="mbr-figure__img"></figure>
+                
+<!-- PRODUTO 3 -->
+                  
+<div id='product-component-1bb103ba011'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'miitrend.myshopify.com',
+      apiKey: '4ae5e6a6f97d139a3a22bf9d3e552815',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [9332538062],
+        node: document.getElementById('product-component-1bb103ba011'),
+        moneyFormat: '%E2%82%AC%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "variantTitle": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "ADICIONAR AO CARRINHO"
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#e3ab42",
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px",
+        "padding-left": "10px",
+        "padding-right": "10px",
+        ":hover": {
+          "background-color": "#cc9a3b"
+        },
+        ":focus": {
+          "background-color": "#cc9a3b"
+        }
+      },
+      "quantityInput": {
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px"
+      },
+      "compareAt": {
+        "font-size": "12px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#e3ab42",
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px",
+        ":hover": {
+          "background-color": "#cc9a3b"
+        },
+        ":focus": {
+          "background-color": "#cc9a3b"
+        }
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#e3ab42",
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px",
+        "padding-left": "10px",
+        "padding-right": "10px",
+        ":hover": {
+          "background-color": "#cc9a3b"
+        },
+        ":focus": {
+          "background-color": "#cc9a3b"
+        }
+      },
+      "quantityInput": {
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px"
+      }
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#e3ab42",
+        ":hover": {
+          "background-color": "#cc9a3b"
+        },
+        ":focus": {
+          "background-color": "#cc9a3b"
+        }
+      },
+      "count": {
+        "font-size": "13px"
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>                  
+                  
+                  
                 </div>
-                <div class="mbr-section__container mbr-section__container--middle">
-                    <div class="mbr-header mbr-header--reduce mbr-header--center mbr-header--wysiwyg">
-                        <h3 class="mbr-header__text">WEB FONTS</h3>
-                    </div>
-                </div>
-                <div class="mbr-section__container mbr-section__container--middle">
-                    <div class="mbr-article mbr-article--wysiwyg">
-                        <p>Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.</p>
-                    </div>
-                </div>
-                <div class="mbr-section__container mbr-section__container--last" style="padding-bottom: 93px;">
-                    <div class="mbr-buttons mbr-buttons--center"><a href="https://mobirise.com" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default">LEARN MORE</a></div>
-                </div>
-            </div>
+               
             
             
             
